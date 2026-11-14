@@ -1,0 +1,9 @@
+[project]
+name = "instruction-clash"
+version = "0.1.0"
+description = "Detect contradictions and loading gaps across CLAUDE.md, AGENTS.md, .cursorrules, copilot-instructions.md"
+requires-python = ">=3.9"
+[project.scripts]
+instruction-clash = "instruction_clash.cli:main"
+[tool.setuptools]
+packages = ["instruction_clash"]
